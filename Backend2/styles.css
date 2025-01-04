@@ -13,7 +13,7 @@ body {
       justify-content: space-between;
       align-items: center;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  
+      font-weight: 400;
     }
   
     .navbar .logo a {
@@ -215,6 +215,9 @@ body {
           }
 
 
+          .nav-item{
+           max-width: 100px;
+          }
           /*for bag.html*/
 
 .header{
