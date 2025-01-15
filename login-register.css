@@ -1,0 +1,76 @@
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.6;
+      color: #333;
+    }
+    .navbar {
+      background-color: white;
+      color: #333;
+      padding: 8px 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        
+    }
+  
+    .navbar .logo a {
+      color: #333;
+      font-size: 1.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      margin-left: 50px;}
+  
+    .nav-links {
+      list-style: none;
+      display: flex;
+      gap: 5px;
+      
+      margin: 15px 20px;
+  
+    }
+    .nav-icon{
+        height: 24px;
+    }
+  
+    .nav-links li a {
+      color: #333;
+      font-size: 1.1rem;
+      text-decoration: none;
+      transition: color 0.3s ease;
+      margin-right: 50px;
+      font-size: x-large;
+  
+  
+    }
+  
+    .nav-links li a:hover {
+      color: #2c3e50;
+    }
+    .form-check-input{
+      background-color: white;
+    }
+    .card {
+      border-radius: 10px;
+      border: none;
+      margin-top: 100px;
+      font-family: 'Poppins', sans-serif;
+    }
+    .btn-primary {
+      background-color: #333;
+      border-color: #333;
+    }
+    .btn-primary:hover {
+      background-color: black;
+      border-color: #0056b3;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
